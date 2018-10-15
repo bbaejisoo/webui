@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+h3, li { /* 태그 이름 셀렉터 */ /*h3, li의 색을 변경*/
+	color : brown;
+}
+div > div > strong { /* 자식 셀렉터 */ /*div 자식의 div 자식의 strong 색 변경*/
+	background : yellow;
+}
+ul strong { /* 자손 셀렉터 */ /*ul에서 strong의 색 변경*/
+	color : dodgerblue;
+}
+.warning { /* class 셀렉터 */ /*.warning이라는 클래스 색 변경*/
+	color : red;
+}
+body.main { /* class 셀렉터 */ /*body 배경 색 변경*/
+	 background : aliceblue; 
+}
+#list { /* id 셀렉터 */ /*list 배경 색 변경*/
+	background : mistyrose;
+}
+#list span{ /* 자손 셀렉터 */ /*list span 색 변경*/
+	color : forestgreen;
+}
+h3:first-letter { /* 가상 클래스 셀렉터 */ /*h3의 첫번째 글자만 색 변경*/
+	color : red;
+} 
+li:hover { /* 가상 클래스 셀렉터 */ /*마우스가 올라갔을때 yellowgreen 표시*/
+	background : yellowgreen;
+}
